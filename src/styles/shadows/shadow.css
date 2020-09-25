@@ -1,0 +1,82 @@
+:root {
+    --shadow-1-rgba-1: rgba(0, 0, 0, 0.16);
+    --shadow-1-rgba-2: rgba(0, 0, 0, 0.12);
+    --shadow-1-rgba-3: rgba(0, 0, 0, 0.09);
+    --shadow-1-blur-1: 2px;
+    --shadow-1-blur-2: 6px;
+    --shadow-1-blur-3: 12px;
+    --shadow-1-spread-1: -2px;
+    --shadow-1-spread-2: 0px;
+    --shadow-1-spread-3: 4px;
+
+    --shadow-2-rgba-1: rgba(0, 0, 0, 0.16);
+    --shadow-2-rgba-2: rgba(0, 0, 0, 0.08);
+    --shadow-2-rgba-3: rgba(0, 0, 0, 0.05);
+    --shadow-2-blur-1: 6px;
+    --shadow-2-blur-2: 16px;
+    --shadow-2-blur-3: 28px;
+    --shadow-2-spread-1: -4px;
+    --shadow-2-spread-2: 0px;
+    --shadow-2-spread-3: 8px;
+
+    --shadow-3-rgba-1: rgba(0, 0, 0, 0.08);
+    --shadow-3-rgba-2: rgba(0, 0, 0, 0.05);
+    --shadow-3-rgba-3: rgba(0, 0, 0, 0.03);
+    --shadow-3-blur-1: 16px;
+    --shadow-3-blur-2: 28px;
+    --shadow-3-blur-3: 48px;
+    --shadow-3-spread-1: -8px;
+    --shadow-3-spread-2: 0px;
+    --shadow-3-spread-3: 16px;
+
+    --shadow-1-up:
+        0px -1px var(--shadow-1-blur-1) var(--shadow-1-spread-1) var(--shadow-1-rgba-1),
+        0px -3px var(--shadow-1-blur-2) var(--shadow-1-spread-2) var(--shadow-1-rgba-2),
+        0px -5px var(--shadow-1-blur-3) var(--shadow-1-spread-3) var(--shadow-1-rgba-3);
+    --shadow-1-down:
+        0px 1px var(--shadow-1-blur-1) var(--shadow-1-spread-1) var(--shadow-1-rgba-1),
+        0px 3px var(--shadow-1-blur-2) var(--shadow-1-spread-2) var(--shadow-1-rgba-2),
+        0px 5px var(--shadow-1-blur-3) var(--shadow-1-spread-3) var(--shadow-1-rgba-3);
+    --shadow-1-left:
+        -1px 0px var(--shadow-1-blur-1) var(--shadow-1-spread-1) var(--shadow-1-rgba-1),
+        -3px 0px var(--shadow-1-blur-2) var(--shadow-1-spread-2) var(--shadow-1-rgba-2),
+        -5px 0px var(--shadow-1-blur-3) var(--shadow-1-spread-3) var(--shadow-1-rgba-3);
+    --shadow-1-right:
+        1px 0px var(--shadow-1-blur-1) var(--shadow-1-spread-1) var(--shadow-1-rgba-1),
+        3px 0px var(--shadow-1-blur-2) var(--shadow-1-spread-2) var(--shadow-1-rgba-2),
+        5px 0px var(--shadow-1-blur-3) var(--shadow-1-spread-3) var(--shadow-1-rgba-3);
+
+    --shadow-2-up:
+        0px -1px var(--shadow-2-blur-1) var(--shadow-2-spread-1) var(--shadow-2-rgba-1),
+        0px -3px var(--shadow-2-blur-2) var(--shadow-2-spread-2) var(--shadow-2-rgba-2),
+        0px -5px var(--shadow-2-blur-3) var(--shadow-2-spread-3) var(--shadow-2-rgba-3);
+    --shadow-2-down:
+        0px 1px var(--shadow-2-blur-1) var(--shadow-2-spread-1) var(--shadow-2-rgba-1),
+        0px 3px var(--shadow-2-blur-2) var(--shadow-2-spread-2) var(--shadow-2-rgba-2),
+        0px 5px var(--shadow-2-blur-3) var(--shadow-2-spread-3) var(--shadow-2-rgba-3);
+    --shadow-2-left:
+        -1px 0px var(--shadow-2-blur-1) var(--shadow-2-spread-1) var(--shadow-2-rgba-1),
+        -3px 0px var(--shadow-2-blur-2) var(--shadow-2-spread-2) var(--shadow-2-rgba-2),
+        -5px 0px var(--shadow-2-blur-3) var(--shadow-2-spread-3) var(--shadow-2-rgba-3);
+    --shadow-2-right:
+        1px 0px var(--shadow-2-blur-1) var(--shadow-2-spread-1) var(--shadow-2-rgba-1),
+        3px 0px var(--shadow-2-blur-2) var(--shadow-2-spread-2) var(--shadow-2-rgba-2),
+        5px 0px var(--shadow-2-blur-3) var(--shadow-2-spread-3) var(--shadow-2-rgba-3);
+
+    --shadow-3-up:
+        0px -1px var(--shadow-3-blur-1) var(--shadow-3-spread-1) var(--shadow-3-rgba-1),
+        0px -3px var(--shadow-3-blur-2) var(--shadow-3-spread-2) var(--shadow-3-rgba-2),
+        0px -5px var(--shadow-3-blur-3) var(--shadow-3-spread-3) var(--shadow-3-rgba-3);
+    --shadow-3-down:
+        0px 1px var(--shadow-3-blur-1) var(--shadow-3-spread-1) var(--shadow-3-rgba-1),
+        0px 3px var(--shadow-3-blur-2) var(--shadow-3-spread-2) var(--shadow-3-rgba-2),
+        0px 5px var(--shadow-3-blur-3) var(--shadow-3-spread-3) var(--shadow-3-rgba-3);
+    --shadow-3-left:
+        -1px 0px var(--shadow-3-blur-1) var(--shadow-3-spread-1) var(--shadow-3-rgba-1),
+        -3px 0px var(--shadow-3-blur-2) var(--shadow-3-spread-2) var(--shadow-3-rgba-2),
+        -5px 0px var(--shadow-3-blur-3) var(--shadow-3-spread-3) var(--shadow-3-rgba-3);
+    --shadow-3-right:
+        1px 0px var(--shadow-3-blur-1) var(--shadow-3-spread-1) var(--shadow-3-rgba-1),
+        3px 0px var(--shadow-3-blur-2) var(--shadow-3-spread-2) var(--shadow-3-rgba-2),
+        5px 0px var(--shadow-3-blur-3) var(--shadow-3-spread-3) var(--shadow-3-rgba-3);
+}

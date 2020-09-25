@@ -1,0 +1,27 @@
+:root {
+    --mold-size-0: 2;
+    --mold-size-1: 4;
+    --mold-size-2: 8;
+    --mold-size-3: 12;
+    --mold-size-4: 16;
+    --mold-size-5: 20;
+    --mold-size-6: 24;
+    --mold-size-7: 32;
+    --mold-size-8: 40;
+    --mold-size-9: 48;
+    --mold-size-10: 64;
+    --mold-size-11: 80;
+    --mold-size-12: 104;
+    --mold-size-13: 128;
+    --mold-size-14: 168;
+    --mold-size-15: 208;
+    --mold-size-16: 272;
+    --mold-size-17: 336;
+    --mold-size-18: 440;
+    --mold-size-19: 552;
+    --mold-size-20: 720;
+    --mold-size-21: 896;
+    --mold-size-22: 1152;
+    --mold-size-23: 1440;
+    --mold-size-24: 1920;
+}

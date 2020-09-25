@@ -1,0 +1,14 @@
+@import "./colors/index.css";
+@import "./fonts/index.css";
+@import "./layouts/index.css";
+@import "./shadows/index.css";
+
+@import "./color.css";
+@import "./font.css";
+@import "./layout.css";
+
+
+:root {
+    font-family: var(--font-family);
+    font-size: var(--font-size-default);
+}

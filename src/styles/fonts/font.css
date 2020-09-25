@@ -1,0 +1,25 @@
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --font-size-1: 12px;
+    --font-size-2: 14px;
+    --font-size-3: 16px;
+    --font-size-4: 20px;
+    --font-size-5: 24px;
+    --font-size-6: 30px;
+    --font-size-7: 38px;
+    --font-size-8: 46px;
+    --font-size-9: 56px;
+    --font-size-10: 68px;
+
+    --line-height-1: 20px;
+    --line-height-2: 22px;
+    --line-height-3: 24px;
+    --line-height-4: 28px;
+    --line-height-5: 32px;
+    --line-height-6: 38px;
+    --line-height-7: 46px;
+    --line-height-8: 54px;
+    --line-height-9: 64px;
+    --line-height-10: 76px;
+}

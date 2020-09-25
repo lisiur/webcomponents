@@ -1,0 +1,76 @@
+:root {
+    --primary-color: var(--blue-6);
+    --primary-color_select: var(--blue-1);
+    --primary-color_hover: var(--blue-5);
+    --primary-color_normal: var(--blue-6);
+    --primary-color_focus: var(--blue-7);
+    --primary-color_contrast: #fff;
+
+    --link-color: var(--blue-6);
+    --link-color_select: var(--blue-1);
+    --link-color_hover: var(--blue-5);
+    --link-color_normal: var(--blue-6);
+    --link-color_focus: var(--blue-7);
+    --link-color_contrast: #fff;
+
+    --info-color: var(--blue-6);
+    --info-color_select: var(--blue-1);
+    --info-color_hover: var(--blue-5);
+    --info-color_normal: var(--blue-6);
+    --info-color_focus: var(--blue-7);
+    --info-color_contrast: #fff;
+
+    --success-color: var(--green-6);
+    --success-color_select: var(--green-1);
+    --success-color_hover: var(--green-5);
+    --success-color_normal: var(--green-6);
+    --success-color_focus: var(--green-7);
+    --success-color_contrast: #fff;
+
+    --warning-color: var(--gold-6);
+    --warning-color_select: var(--gold-1);
+    --warning-color_hover: var(--gold-5);
+    --warning-color_normal: var(--gold-6);
+    --warning-color_focus: var(--gold-7);
+    --warning-color_contrast: #fff;
+
+    --error-color: var(--red-6);
+    --error-color_select: var(--red-1);
+    --error-color_hover: var(--red-5);
+    --error-color_normal: var(--red-6);
+    --error-color_focus: var(--red-7);
+    --error-color_contrast: #fff;
+
+    --danger-color: var(--red-6);
+    --danger-color_select: var(--red-1);
+    --danger-color_hover: var(--red-5);
+    --danger-color_normal: var(--red-6);
+    --danger-color_focus: var(--red-7);
+    --danger-color_contrast: #fff;
+
+    --title-color: rgba(0, 0, 0, .85);
+    --primary-text-color: rgba(0, 0, 0, .65);
+    --secondary-text-color: rgba(0, 0, 0, .45);
+    --disable-color: rgba(0, 0, 0, .25);
+    --border-color: rgba(0, 0, 0, .15);
+    --divider-color: rgba(0, 0, 0, .06);
+    --table-header-color: rgba(0, 0, 0, .02);
+    --background-color: rgba(0, 0, 0, 0);
+}
+
+:root[data-theme=dark] {
+    --primary-color: var(--blue-6);
+    --primary-color_select: var(--blue-1);
+    --primary-color_hover: var(--blue-5);
+    --primary-color_normal: var(--blue-6);
+    --primary-color_focus: var(--blue-7);
+
+    --title-color: rgba(255, 255, 255, .85);
+    --primary-text-color: rgba(255, 255, 255, .65);
+    --secondary-text-color: rgba(255, 255, 255, .45);
+    --disable-color: rgba(255, 255, 255, .30);
+    --border-color: rgba(255, 255, 255, .2);
+    --divider-color: rgba(255, 255, 255, .12);
+    --background-color: rgba(255, 255, 255, .08);
+    --table-header-color: rgba(255, 255, 255, .04);
+}
